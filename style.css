@@ -4,6 +4,41 @@
   box-sizing: border-box;
 }
 
+.advice-header {
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+
+  margin-top: 3rem;
+  letter-spacing: 0.5rem;
+  overflow: hidden;
+  font-size: 2.rem;
+  border-right: 0.15em solid hsl(193, 38%, 86%);
+  white-space: nowrap;
+  font-family: monospace;
+  animation: typing 6s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color:   hsl(193, 38%, 86%);
+;
+  }
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -28,7 +63,7 @@ body {
   color: hsl(150, 100%, 66%);
   text-align: center;
   letter-spacing: 3px;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top: 0;
 }
 .dice {
@@ -36,7 +71,7 @@ body {
   position: absolute;
   bottom: -17px;
   left: 131px;
-  padding: 7px;
+  padding: 10px;
   border-radius: 50%;
 }
 
@@ -52,7 +87,7 @@ body {
 .main-advice {
   margin: 25px 0 35px 0;
   color: hsl(193, 38%, 86%);
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: center;
 }
 .loading {
