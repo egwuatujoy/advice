@@ -18,7 +18,7 @@ body {
 
 .card {
   background-color: hsl(217, 19%, 24%);
-  width: 250px;
+  width: 300px;
   position: relative;
   padding: 25px;
   border-radius: 10px;
@@ -34,9 +34,9 @@ body {
 .dice {
   background-color: hsl(150, 100%, 66%);
   position: absolute;
-  bottom: -10px;
-  left: 106px;
-  padding: 5px;
+  bottom: -17px;
+  left: 131px;
+  padding: 7px;
   border-radius: 50%;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .main-advice {
-  margin: 15px 0 25px 0;
+  margin: 25px 0 35px 0;
   color: hsl(193, 38%, 86%);
   font-size: 0.8em;
   text-align: center;
