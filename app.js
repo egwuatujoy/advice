@@ -10,5 +10,5 @@ async function FetchData() {
   const json = await datas.json();
   // console.log(json);
   adviceNum.textContent = `ADVICE #${json.slip.id}`;
-  mainAdvices.textContent = json.slip.advice;
+  mainAdvices.textContent = `"${json.slip.advice}"`;
 }
